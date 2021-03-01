@@ -60,4 +60,9 @@ const getJrvs = (data) => {
   return jrvs
 }
 
-export { getJrvs }
+const getJrvByNumber = async (data, jrvNumber) => {
+  const jrvs = await getJrvs(data)
+  return jrvs.find((jrv) => jrv.jrv === jrvNumber)
+}
+
+export { getJrvs, getJrvByNumber }
