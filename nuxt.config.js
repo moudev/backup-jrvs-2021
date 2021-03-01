@@ -43,5 +43,13 @@ export default {
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-build#hotmiddleware
+    hotMiddleware: {
+      client: {
+        // Turn off client overlay when errors are present
+        overlay: false,
+      },
+    },
+  },
 }
