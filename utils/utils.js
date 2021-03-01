@@ -60,8 +60,8 @@ const getJrvs = (data) => {
   return jrvs
 }
 
-const getJrvByNumber = async (data, jrvNumber) => {
-  const jrvs = await getJrvs(data)
+const getJrvByNumber = (data, jrvNumber) => {
+  const jrvs = getJrvs(data)
   return jrvs.find((jrv) => jrv.jrv === jrvNumber)
 }
 

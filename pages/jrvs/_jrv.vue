@@ -8,11 +8,9 @@
         <img
           v-for="image in jrv.images"
           :key="image"
-          :src="`https://io.hackerspace.sv/data/actas_tse${image}`"
+          :src="`${baseURL}${image}`"
           class="my-4 border border-gray-300 cursor-pointer"
-          @click="
-            setBigImage(`https://io.hackerspace.sv/data/actas_tse${image}`)
-          "
+          @click="setBigImage(`${baseURL}${image}`)"
         />
       </div>
       <div class="w-3/4 border ml-8 p-4 border border-gray-400">
@@ -30,14 +28,13 @@ export default {
     try {
       const { jrv: jrvNumber } = params
 
-      const data = await $axios.$get(
-        'https://io.hackerspace.sv/data/actas_tse/disponibles.txt'
-      )
+      const data = await $axios.$get('/disponibles.txt')
 
-      const jrv = await getJrvByNumber(data, jrvNumber)
+      const jrv = getJrvByNumber(data, jrvNumber)
 
       return {
         jrv,
+        baseURL: $axios.defaults.baseURL,
       }
     } catch (e) {
       error('Error de conexión')
