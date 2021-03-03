@@ -18,19 +18,16 @@
 </template>
 
 <script>
-import { getJrvs } from '@/utils/utils'
+import jrvs from '@/data/jrvs.json'
 
 export default {
-  async asyncData({ $axios, error }) {
+  asyncData({ error }) {
     try {
-      const data = await $axios.$get('disponibles.txt')
-      const jrvs = getJrvs(data)
-
       return {
         jrvs,
       }
     } catch (e) {
-      error('Error de conexión')
+      error('Error de conexión', e)
     }
   },
 }

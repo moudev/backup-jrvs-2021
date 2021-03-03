@@ -8,9 +8,9 @@
         <img
           v-for="image in jrv.images"
           :key="image"
-          :src="`${baseURL}${image}`"
+          :src="image"
           class="my-4 border border-gray-300 cursor-pointer"
-          @click="setBigImage(`${baseURL}${image}`)"
+          @click="setBigImage(image)"
         />
       </div>
       <div class="w-3/4 border ml-8 p-4 border border-gray-400">
@@ -21,20 +21,19 @@
 </template>
 
 <script>
-import { getJrvByNumber } from '@/utils/utils'
+import jrvs from '@/data/jrvs.json'
+
+import { getJrvByNumber } from '~/utils/jrvs-utils'
 
 export default {
-  async asyncData({ $axios, params, error }) {
+  asyncData({ params, error }) {
     try {
       const { jrv: jrvNumber } = params
 
-      const data = await $axios.$get('disponibles.txt')
-
-      const jrv = getJrvByNumber(data, jrvNumber)
+      const jrv = getJrvByNumber(jrvs, jrvNumber)
 
       return {
         jrv,
-        baseURL: $axios.defaults.baseURL,
       }
     } catch (e) {
       error('Error de conexión')
