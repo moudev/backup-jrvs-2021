@@ -1,6 +1,16 @@
 <template>
   <div>
     <Nuxt />
+    <div class="container mx-auto pt-32 pb-16 text-center">
+      <p>¿Deseas colaborar a mejorar este sitio?</p>
+      <a
+        href="https://github.com/moudev/backup-jrvs-2021"
+        target="_blank"
+        class="text-blue-600 underline"
+      >
+        Repositorio de GitHub
+      </a>
+    </div>
   </div>
 </template>
 
