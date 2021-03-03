@@ -1,6 +1,15 @@
+import jrvs from './data/jrvs.json'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-generate
+  generate: {
+    fallback: true,
+    crawler: false,
+    routes: jrvs.map((jrv) => `/jrvs/${jrv.jrv}`),
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
