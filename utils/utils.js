@@ -4,7 +4,7 @@ const getJrvs = (data) => {
   //   - 21: First two numbers. Year
   //   - 33: Last two numbers. Image correlative
   //   - 8124: Rest of the number. JRV number
-  const jrvRegex = /\.\/img\/\d+-\d+\/\d+\/\d{2}(\d+)\d{2,}\.png/
+  const jrvRegex = /^img\/\d+-\d+\/\d+\/\d{2}(\d+)\d{2,}\.png$/
 
   // 1. Split the routes
   const imagesRoutes = data.split('\n').filter((route) => route !== '')
@@ -12,7 +12,7 @@ const getJrvs = (data) => {
   // 2. Find and filter all the routes that has match with the regex pattern
   // Result example:
   // [
-  //   './img/13-04/004/21812433.png', // [0]: relative path image
+  //   'img/13-04/004/21812433.png', // [0]: relative path image
   //    '8124', // [1]: JRV number
   //    ...
   // ]
@@ -33,15 +33,15 @@ const getJrvs = (data) => {
   //   {
   //     jrv: '8124',
   //     images: [
-  //       '/img/13-04/004/21812433.png',
-  //       '/img/13-04/004/21812431.png',
+  //       'img/13-04/004/21812433.png',
+  //       'img/13-04/004/21812431.png',
   //     ]
   //   }
   //   {
   //     jrv: '8125',
   //     images: [
-  //       '/img/13-04/004/21812533.png',
-  //       '/img/13-04/004/21812531.png',
+  //       'img/13-04/004/21812533.png',
+  //       'img/13-04/004/21812531.png',
   //     ]
   //   },
   //   ...
@@ -53,7 +53,7 @@ const getJrvs = (data) => {
 
     return {
       jrv: jrvNumber,
-      images: images.map((route) => route[0].replace('./', '/')),
+      images: images.map((route) => route[0]),
     }
   })
 

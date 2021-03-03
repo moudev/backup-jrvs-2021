@@ -23,7 +23,7 @@ import { getJrvs } from '@/utils/utils'
 export default {
   async asyncData({ $axios, error }) {
     try {
-      const data = await $axios.$get('/disponibles.txt')
+      const data = await $axios.$get('disponibles.txt')
       const jrvs = getJrvs(data)
 
       return {

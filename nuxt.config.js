@@ -46,7 +46,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://io.hackerspace.sv/data/actas_tse',
+    baseURL: 'https://io.hackerspace.sv/data/actas_tse/',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

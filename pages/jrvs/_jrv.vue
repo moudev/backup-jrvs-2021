@@ -28,7 +28,7 @@ export default {
     try {
       const { jrv: jrvNumber } = params
 
-      const data = await $axios.$get('/disponibles.txt')
+      const data = await $axios.$get('disponibles.txt')
 
       const jrv = getJrvByNumber(data, jrvNumber)
 
