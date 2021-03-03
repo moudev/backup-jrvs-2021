@@ -77,7 +77,12 @@ function getJrvByNumber(jrvs, jrvNumber) {
   return jrvs.find((jrv) => jrv.jrv === jrvNumber)
 }
 
+function searchJrvsByNumber(jrvs, jrvNumber) {
+  return jrvs.filter((jrv) => jrv.jrv.includes(jrvNumber))
+}
+
 module.exports = {
   getJrvs,
   getJrvByNumber,
+  searchJrvsByNumber,
 }
