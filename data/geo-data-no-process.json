@@ -1,0 +1,1574 @@
+[
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 1,
+    "MUNIC": "SAN SALVADOR"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 10,
+    "MUNIC": "SAN MARTIN"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 11,
+    "MUNIC": "PANCHIMALCO"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 12,
+    "MUNIC": "AGUILARES"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 13,
+    "MUNIC": "TONACATEPEQUE"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 14,
+    "MUNIC": "SANTO TOMAS"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 15,
+    "MUNIC": "SANTIAGO TEXACUANGOS"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 16,
+    "MUNIC": "EL PAISNAL"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 17,
+    "MUNIC": "GUAZAPA"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 18,
+    "MUNIC": "AYUTUXTEPEQUE"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 19,
+    "MUNIC": "ROSARIO DE MORA"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 2,
+    "MUNIC": "CIUDAD DELGADO"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 3,
+    "MUNIC": "MEJICANOS"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 4,
+    "MUNIC": "SOYAPANGO"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 5,
+    "MUNIC": "CUSCATANCINGO"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 6,
+    "MUNIC": "SAN MARCOS"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 7,
+    "MUNIC": "ILOPANGO"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 8,
+    "MUNIC": "NEJAPA"
+  },
+  {
+    "CDPTO": 1,
+    "DPTO": "SAN SALVADOR",
+    "CMUN": 9,
+    "MUNIC": "APOPA"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 1,
+    "MUNIC": "COJUTEPEQUE"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 10,
+    "MUNIC": "SAN CRISTOBAL"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 11,
+    "MUNIC": "SANTA CRUZ MICHAPA"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 12,
+    "MUNIC": "SAN BARTOLOME PERULAPIA"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 13,
+    "MUNIC": "SAN RAMON"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 14,
+    "MUNIC": "EL ROSARIO"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 15,
+    "MUNIC": "ORATORIO DE CONCEPCION"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 16,
+    "MUNIC": "SANTA CRUZ ANALQUITO"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 2,
+    "MUNIC": "SUCHITOTO"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 3,
+    "MUNIC": "SAN PEDRO PERULAPAN"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 4,
+    "MUNIC": "SAN JOSE GUAYABAL"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 5,
+    "MUNIC": "TENANCINGO"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 6,
+    "MUNIC": "SAN RAFAEL CEDROS"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 7,
+    "MUNIC": "CANDELARIA"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 8,
+    "MUNIC": "EL CARMEN"
+  },
+  {
+    "CDPTO": 10,
+    "DPTO": "CUSCATLAN",
+    "CMUN": 9,
+    "MUNIC": "MONTE SAN JUAN"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 1,
+    "MUNIC": "AHUACHAPAN"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 10,
+    "MUNIC": "SAN LORENZO"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 11,
+    "MUNIC": "TURIN"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 12,
+    "MUNIC": "EL REFUGIO"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 2,
+    "MUNIC": "ATIQUIZAYA"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 3,
+    "MUNIC": "SAN FRANCISCO MENENDEZ"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 4,
+    "MUNIC": "TACUBA"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 5,
+    "MUNIC": "CONCEPCION DE ATACO"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 6,
+    "MUNIC": "JUJUTLA"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 7,
+    "MUNIC": "GUAYMANGO"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 8,
+    "MUNIC": "APANECA"
+  },
+  {
+    "CDPTO": 11,
+    "DPTO": "AHUACHAPAN",
+    "CMUN": 9,
+    "MUNIC": "SAN PEDRO PUXTLA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 1,
+    "MUNIC": "SAN FRANCISCO GOTERA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 10,
+    "MUNIC": "CHILANGA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 11,
+    "MUNIC": "MEANGUERA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 12,
+    "MUNIC": "TOROLA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 13,
+    "MUNIC": "SAN SIMON"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 14,
+    "MUNIC": "DELICIAS DE CONCEPCION"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 15,
+    "MUNIC": "JOATECA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 16,
+    "MUNIC": "ARAMBALA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 17,
+    "MUNIC": "LOLOTIQUILLO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 18,
+    "MUNIC": "YAMABAL"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 19,
+    "MUNIC": "YOLOAIQUIN"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 2,
+    "MUNIC": "JOCORO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 20,
+    "MUNIC": "SAN CARLOS"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 21,
+    "MUNIC": "EL ROSARIO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 22,
+    "MUNIC": "PERQUIN"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 23,
+    "MUNIC": "SENSEMBRA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 24,
+    "MUNIC": "GUALOCOCTI"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 25,
+    "MUNIC": "SAN FERNANDO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 26,
+    "MUNIC": "SAN ISIDRO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 3,
+    "MUNIC": "CORINTO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 4,
+    "MUNIC": "SOCIEDAD"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 5,
+    "MUNIC": "CACAOPERA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 6,
+    "MUNIC": "GUATAJIAGUA"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 7,
+    "MUNIC": "EL DIVISADERO"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 8,
+    "MUNIC": "JOCOAITIQUE"
+  },
+  {
+    "CDPTO": 12,
+    "DPTO": "MORAZAN",
+    "CMUN": 9,
+    "MUNIC": "OSICALA"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 1,
+    "MUNIC": "SAN VICENTE"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 10,
+    "MUNIC": "GUADALUPE"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 11,
+    "MUNIC": "SANTO DOMINGO"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 12,
+    "MUNIC": "SAN CAYETANO ISTEPEQUE"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 13,
+    "MUNIC": "TEPETITAN"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 2,
+    "MUNIC": "TECOLUCA"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 3,
+    "MUNIC": "SAN SEBASTIAN"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 4,
+    "MUNIC": "APASTEPEQUE"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 5,
+    "MUNIC": "SAN ESTEBAN CATARINA"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 6,
+    "MUNIC": "SAN ILDEFONSO"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 7,
+    "MUNIC": "SANTA CLARA"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 8,
+    "MUNIC": "SAN LORENZO"
+  },
+  {
+    "CDPTO": 13,
+    "DPTO": "SAN VICENTE",
+    "CMUN": 9,
+    "MUNIC": "VERAPAZ"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 1,
+    "MUNIC": "SENSUNTEPEQUE"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 2,
+    "MUNIC": "ILOBASCO"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 3,
+    "MUNIC": "VICTORIA"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 4,
+    "MUNIC": "SAN ISIDRO"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 5,
+    "MUNIC": "JUTIAPA"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 6,
+    "MUNIC": "TEJUTEPEQUE"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 7,
+    "MUNIC": "DOLORES"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 8,
+    "MUNIC": "CINQUERA"
+  },
+  {
+    "CDPTO": 14,
+    "DPTO": "CABAÑAS",
+    "CMUN": 9,
+    "MUNIC": "GUACOTECTI"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 1,
+    "MUNIC": "SANTA ANA"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 10,
+    "MUNIC": "SANTIAGO DE LA FRONTERA"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 11,
+    "MUNIC": "EL PORVENIR"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 12,
+    "MUNIC": "MASAHUAT"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 13,
+    "MUNIC": "SAN ANTONIO PAJONAL"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 2,
+    "MUNIC": "CHALCHUAPA"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 3,
+    "MUNIC": "METAPAN"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 4,
+    "MUNIC": "COATEPEQUE"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 5,
+    "MUNIC": "EL CONGO"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 6,
+    "MUNIC": "TEXISTEPEQUE"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 7,
+    "MUNIC": "CANDELARIA DE LA FRONTERA"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 8,
+    "MUNIC": "SAN SEBASTIAN SALITRILLO"
+  },
+  {
+    "CDPTO": 2,
+    "DPTO": "SANTA ANA",
+    "CMUN": 9,
+    "MUNIC": "SANTA ROSA GUACHIPILIN"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 1,
+    "MUNIC": "SAN MIGUEL"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 10,
+    "MUNIC": "SAN JORGE"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 11,
+    "MUNIC": "CHAPELTIQUE"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 12,
+    "MUNIC": "SAN GERARDO"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 13,
+    "MUNIC": "CAROLINA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 14,
+    "MUNIC": "QUELEPA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 15,
+    "MUNIC": "SAN LUIS DE LA REINA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 16,
+    "MUNIC": "NUEVO EDEN DE SAN JUAN"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 17,
+    "MUNIC": "NUEVA GUADALUPE"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 18,
+    "MUNIC": "ULUAZAPA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 19,
+    "MUNIC": "COMACARAN"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 2,
+    "MUNIC": "CHINAMECA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 20,
+    "MUNIC": "SAN ANTONIO DEL MOSCO"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 3,
+    "MUNIC": "EL TRANSITO"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 4,
+    "MUNIC": "CIUDAD BARRIOS"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 5,
+    "MUNIC": "CHIRILAGUA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 6,
+    "MUNIC": "SESORI"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 7,
+    "MUNIC": "SAN RAFAEL ORIENTE"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 8,
+    "MUNIC": "MONCAGUA"
+  },
+  {
+    "CDPTO": 3,
+    "DPTO": "SAN MIGUEL",
+    "CMUN": 9,
+    "MUNIC": "LOLOTIQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 1,
+    "MUNIC": "SANTA TECLA"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 10,
+    "MUNIC": "JAYAQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 11,
+    "MUNIC": "HUIZUCAR"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 12,
+    "MUNIC": "TEPECOYO"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 13,
+    "MUNIC": "TEOTEPEQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 14,
+    "MUNIC": "CHILTIUPAN"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 15,
+    "MUNIC": "NUEVO CUSCATLAN"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 16,
+    "MUNIC": "TAMANIQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 17,
+    "MUNIC": "SACACOYO"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 18,
+    "MUNIC": "SAN JOSE VILLANUEVA"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 19,
+    "MUNIC": "ZARAGOZA"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 2,
+    "MUNIC": "QUEZALTEPEQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 20,
+    "MUNIC": "TALNIQUE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 21,
+    "MUNIC": "SAN MATIAS"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 22,
+    "MUNIC": "JICALAPA"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 3,
+    "MUNIC": "CIUDAD ARCE"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 4,
+    "MUNIC": "SAN JUAN OPICO"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 5,
+    "MUNIC": "COLON"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 6,
+    "MUNIC": "LA LIBERTAD"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 7,
+    "MUNIC": "ANTIGUO CUSCATLAN"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 8,
+    "MUNIC": "COMASAGUA"
+  },
+  {
+    "CDPTO": 4,
+    "DPTO": "LA LIBERTAD",
+    "CMUN": 9,
+    "MUNIC": "SAN PABLO TACACHICO"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 1,
+    "MUNIC": "USULUTAN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 10,
+    "MUNIC": "ESTANZUELAS"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 11,
+    "MUNIC": "MERCEDES UMAÑA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 12,
+    "MUNIC": "ALEGRIA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 13,
+    "MUNIC": "CONCEPCION BATRES"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 14,
+    "MUNIC": "SAN FRANCISCO JAVIER"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 15,
+    "MUNIC": "PUERTO EL TRIUNFO"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 16,
+    "MUNIC": "TECAPAN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 17,
+    "MUNIC": "SAN DIONISIO"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 18,
+    "MUNIC": "EREGUAYQUIN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 19,
+    "MUNIC": "SANTA MARIA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 2,
+    "MUNIC": "JIQUILISCO"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 20,
+    "MUNIC": "NUEVA GRANADA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 21,
+    "MUNIC": "EL TRIUNFO"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 22,
+    "MUNIC": "SAN BUENAVENTURA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 23,
+    "MUNIC": "CALIFORNIA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 3,
+    "MUNIC": "BERLIN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 4,
+    "MUNIC": "SANTIAGO DE MARIA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 5,
+    "MUNIC": "JUCUAPA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 6,
+    "MUNIC": "SANTA ELENA"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 7,
+    "MUNIC": "JUCUARAN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 8,
+    "MUNIC": "SAN AGUSTIN"
+  },
+  {
+    "CDPTO": 5,
+    "DPTO": "USULUTAN",
+    "CMUN": 9,
+    "MUNIC": "OZATLAN"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 1,
+    "MUNIC": "SONSONATE"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 10,
+    "MUNIC": "NAHUILINGO"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 11,
+    "MUNIC": "CUISNAHUAT"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 12,
+    "MUNIC": "SANTA CATARINA MASAHUAT"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 13,
+    "MUNIC": "CALUCO"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 14,
+    "MUNIC": "SANTA ISABEL ISHUATAN"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 15,
+    "MUNIC": "SALCOATITAN"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 16,
+    "MUNIC": "SANTO DOMINGO DE GUZMAN"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 2,
+    "MUNIC": "IZALCO"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 3,
+    "MUNIC": "ACAJUTLA"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 4,
+    "MUNIC": "ARMENIA"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 5,
+    "MUNIC": "NAHUIZALCO"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 6,
+    "MUNIC": "JUAYUA"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 7,
+    "MUNIC": "SAN JULIAN"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 8,
+    "MUNIC": "SONZACATE"
+  },
+  {
+    "CDPTO": 6,
+    "DPTO": "SONSONATE",
+    "CMUN": 9,
+    "MUNIC": "SAN ANTONIO DEL MONTE"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 1,
+    "MUNIC": "LA UNION"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 10,
+    "MUNIC": "YUCUAIQUIN"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 11,
+    "MUNIC": "NUEVA ESPARTA"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 12,
+    "MUNIC": "POLOROS"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 13,
+    "MUNIC": "BOLIVAR"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 14,
+    "MUNIC": "CONCEPCION DE ORIENTE"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 15,
+    "MUNIC": "INTIPUCA"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 16,
+    "MUNIC": "SAN JOSE LAS FUENTES"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 17,
+    "MUNIC": "YAYANTIQUE"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 18,
+    "MUNIC": "MEANGUERA DEL GOLFO"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 2,
+    "MUNIC": "SANTA ROSA DE LIMA"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 3,
+    "MUNIC": "PASAQUINA"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 4,
+    "MUNIC": "SAN ALEJO"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 5,
+    "MUNIC": "ANAMOROS"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 6,
+    "MUNIC": "EL CARMEN"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 7,
+    "MUNIC": "CONCHAGUA"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 8,
+    "MUNIC": "EL SAUCE"
+  },
+  {
+    "CDPTO": 7,
+    "DPTO": "LA UNION",
+    "CMUN": 9,
+    "MUNIC": "LISLIQUE"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 1,
+    "MUNIC": "ZACATECOLUCA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 10,
+    "MUNIC": "SAN RAFAEL OBRAJUELO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 11,
+    "MUNIC": "SANTA MARIA OSTUMA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 12,
+    "MUNIC": "SAN LUIS TALPA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 13,
+    "MUNIC": "SAN ANTONIO MASAHUAT"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 14,
+    "MUNIC": "SAN MIGUEL TEPEZONTES"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 15,
+    "MUNIC": "SAN JUAN TEPEZONTES"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 16,
+    "MUNIC": "TAPALHUACA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 17,
+    "MUNIC": "CUYULTITAN"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 18,
+    "MUNIC": "PARAISO DE OSORIO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 19,
+    "MUNIC": "SAN EMIGDIO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 2,
+    "MUNIC": "SANTIAGO NONUALCO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 20,
+    "MUNIC": "JERUSALEN"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 21,
+    "MUNIC": "MERCEDES LA CEIBA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 22,
+    "MUNIC": "SAN LUIS LA HERRADURA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 3,
+    "MUNIC": "SAN JUAN NONUALCO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 4,
+    "MUNIC": "SAN PEDRO MASAHUAT"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 5,
+    "MUNIC": "OLOCUILTA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 6,
+    "MUNIC": "SAN PEDRO NONUALCO"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 7,
+    "MUNIC": "SAN FRANCISCO CHINAMECA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 8,
+    "MUNIC": "SAN JUAN TALPA"
+  },
+  {
+    "CDPTO": 8,
+    "DPTO": "LA PAZ",
+    "CMUN": 9,
+    "MUNIC": "EL ROSARIO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 1,
+    "MUNIC": "CHALATENANGO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 10,
+    "MUNIC": "AGUA CALIENTE"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 11,
+    "MUNIC": "CONCEPCION QUEZALTEPEQUE"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 12,
+    "MUNIC": "NUEVA TRINIDAD"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 13,
+    "MUNIC": "LAS VUELTAS"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 14,
+    "MUNIC": "COMALAPA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 15,
+    "MUNIC": "SAN RAFAEL"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 16,
+    "MUNIC": "LAS FLORES"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 17,
+    "MUNIC": "OJOS DE AGUA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 18,
+    "MUNIC": "NOMBRE DE JESUS"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 19,
+    "MUNIC": "POTONICO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 2,
+    "MUNIC": "NUEVA CONCEPCION"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 20,
+    "MUNIC": "SAN FRANCISCO MORAZAN"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 21,
+    "MUNIC": "SANTA RITA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 22,
+    "MUNIC": "LA LAGUNA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 23,
+    "MUNIC": "SAN ISIDRO LABRADOR"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 24,
+    "MUNIC": "SAN ANTONIO DE LA CRUZ"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 25,
+    "MUNIC": "EL PARAISO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 26,
+    "MUNIC": "SAN MIGUEL DE MERCEDES"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 27,
+    "MUNIC": "SAN LUIS DEL CARMEN"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 28,
+    "MUNIC": "SAN JOSE CANCASQUE"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 29,
+    "MUNIC": "SAN ANTONIO LOS RANCHOS"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 3,
+    "MUNIC": "LA PALMA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 30,
+    "MUNIC": "EL CARRIZAL"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 31,
+    "MUNIC": "SAN FERNANDO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 32,
+    "MUNIC": "AZACUALPA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 33,
+    "MUNIC": "SAN FRANCISCO LEMPA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 4,
+    "MUNIC": "TEJUTLA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 5,
+    "MUNIC": "LA REINA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 6,
+    "MUNIC": "ARCATAO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 7,
+    "MUNIC": "SAN IGNACIO"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 8,
+    "MUNIC": "DULCE NOMBRE DE MARIA"
+  },
+  {
+    "CDPTO": 9,
+    "DPTO": "CHALATENANGO",
+    "CMUN": 9,
+    "MUNIC": "CITALA"
+  }
+]

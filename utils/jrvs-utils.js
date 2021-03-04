@@ -13,7 +13,7 @@ async function getJrvs() {
     //   - 21: First two numbers. Year
     //   - 33: Last two numbers. Image correlative and acta type
     //   - 8124: Rest of the number. JRV number
-    const jrvRegex = /^img\/\d+-\d+\/\d+\/\d{2}(\d+)\d{2,}\.png$/
+    const jrvRegex = /^img\/(\d+)-(\d+)\/\d+\/\d{2}(\d+)\d{2,}\.png$/
 
     // 1. Split the routes
     const imagesRoutes = data.data.split('\n').filter((route) => route !== '')
@@ -22,7 +22,9 @@ async function getJrvs() {
     // Result example:
     // [
     //   'img/13-04/004/21812433.png', // [0]: relative path image
-    //    '8124', // [1]: JRV number
+    //    '13', // [1]: Depto code
+    //    '04', // [2]: Municipality code
+    //    '8124', // [3]: JRV number
     //    ...
     // ]
     const jrvsRepeatedMatchesArray = imagesRoutes
@@ -33,7 +35,7 @@ async function getJrvs() {
     // https://www.javascripttutorial.net/array/javascript-remove-duplicates-from-array/
     // Result example: ['8124', '8125', '8126', ...]
     const jrvsNumbersArray = [
-      ...new Set(jrvsRepeatedMatchesArray.map((match) => match[1])),
+      ...new Set(jrvsRepeatedMatchesArray.map((match) => match[3])),
     ]
 
     // 4. Create and array of objects with the JRV number and routes images attributes
@@ -41,6 +43,8 @@ async function getJrvs() {
     // [
     //   {
     //     jrv: '8124',
+    //     depto_id: 13,
+    //     muni_id: 4,
     //     images: [
     //       'https://io.hackerspace.sv/data/actas_tse/img/13-04/004/21812433.png',
     //       'https://io.hackerspace.sv/data/actas_tse/img/13-04/004/21812431.png',
@@ -48,6 +52,8 @@ async function getJrvs() {
     //   }
     //   {
     //     jrv: '8125',
+    //     depto_id: 13,
+    //     muni_id: 4,
     //     images: [
     //       'https://io.hackerspace.sv/data/actas_tse/img/13-04/004/21812533.png',
     //       'https://io.hackerspace.sv/data/actas_tse/img/13-04/004/21812531.png',
@@ -56,13 +62,15 @@ async function getJrvs() {
     //   ...
     // ]
     const jrvs = jrvsNumbersArray.map((jrvNumber) => {
-      const images = jrvsRepeatedMatchesArray.filter(
-        (match) => match[1] === jrvNumber
+      const matchedJrvs = jrvsRepeatedMatchesArray.filter(
+        (match) => match[3] === jrvNumber
       )
 
       return {
         jrv: jrvNumber,
-        images: images.map((route) => `${BASE_URL}${route[0]}`),
+        depto_id: parseInt(matchedJrvs[0][1], 10),
+        muni_id: parseInt(matchedJrvs[0][2], 10),
+        images: matchedJrvs.map((match) => `${BASE_URL}${match[0]}`),
       }
     })
 
