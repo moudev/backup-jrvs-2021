@@ -9,11 +9,12 @@ async function getJrvs() {
     const data = await axios.get(`${BASE_URL}disponibles.txt`)
 
     // Route example --> img/13-04/004/21812433.png
-    // 21812433.png
-    //   - 21: First two numbers. Year
-    //   - 33: Last two numbers. Image correlative and acta type
-    //   - 8124: Rest of the number. JRV number
-    const jrvRegex = /^img\/(\d+)-(\d+)\/\d+\/\d{2}(\d+)\d{2,}\.png$/
+    // 21-8124-3-3.png
+    //   - 21: Year
+    //   - 8124: JRV number
+    //   - 3: Acta type
+    //   - 3: Correlative
+    const jrvRegex = /^img\/(\d+)-(\d+)\/\d+\/\d{2}(\d{4})(\d{1})(\d{1})\.png$/
 
     // 1. Split the routes
     const imagesRoutes = data.data.split('\n').filter((route) => route !== '')
@@ -21,10 +22,12 @@ async function getJrvs() {
     // 2. Find and filter all the routes that has match with the regex pattern
     // Result example:
     // [
-    //   'img/13-04/004/21812433.png', // [0]: relative path image
+    //   'img/13-04/004/21812433.png', // [0]: Relative path image
     //    '13', // [1]: Depto code
     //    '04', // [2]: Municipality code
     //    '8124', // [3]: JRV number
+    //    '3', // [4]: Acta type
+    //    '3', // [5]: Image correlative
     //    ...
     // ]
     const jrvsRepeatedMatchesArray = imagesRoutes
@@ -70,7 +73,29 @@ async function getJrvs() {
         jrv: jrvNumber,
         depto_id: parseInt(matchedJrvs[0][1], 10),
         muni_id: parseInt(matchedJrvs[0][2], 10),
-        images: matchedJrvs.map((match) => `${BASE_URL}${match[0]}`),
+        papers: [
+          {
+            type: 3,
+            name: 'Asamblea Legislativa',
+            images: matchedJrvs
+              .filter((match) => parseInt(match[4]) === 3)
+              .map((image) => `${BASE_URL}${image[0]}`),
+          },
+          {
+            type: 5,
+            name: 'Concejo Municipal',
+            images: matchedJrvs
+              .filter((match) => parseInt(match[4]) === 5)
+              .map((image) => `${BASE_URL}${image[0]}`),
+          },
+          {
+            type: 2,
+            name: 'Parlamento Centroamericano',
+            images: matchedJrvs
+              .filter((match) => parseInt(match[4], 10) === 2)
+              .map((image) => `${BASE_URL}${image[0]}`),
+          },
+        ],
       }
     })
 

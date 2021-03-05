@@ -54,7 +54,6 @@
         class="flex flex-col items-center border m-4 my-8 p-8 md:mx-8"
       >
         <p class="text-xl font-semibold">#{{ jrv.jrv }}</p>
-        <p class="text-xs text-gray-600">{{ jrv.images.length }} Imágenes</p>
       </nuxt-link>
     </div>
   </div>
