@@ -89,8 +89,22 @@ function searchJrvsByNumber(jrvs, jrvNumber) {
   return jrvs.filter((jrv) => jrv.jrv.includes(jrvNumber))
 }
 
+function filterByDepto(jrvs, deptoId) {
+  return jrvs.filter((jrv) => parseInt(jrv.depto_id, 10) === deptoId)
+}
+
+function filterByMunicipality(jrvs, deptoId, muniId) {
+  return jrvs.filter(
+    (jrv) =>
+      parseInt(jrv.depto_id, 10) === deptoId &&
+      parseInt(jrv.muni_id, 10) === muniId
+  )
+}
+
 module.exports = {
   getJrvs,
   getJrvByNumber,
   searchJrvsByNumber,
+  filterByDepto,
+  filterByMunicipality,
 }
