@@ -5,12 +5,13 @@
         JRVs: {{ globalJrvs.length }} respaldadas
       </h1>
       <p class="text-center my-4">
-        Mostrando {{ Math.min(localJrvs.length, maxPaginationCount) }} de
-        {{ localJrvs.length }} JRVs encontradas
+        Mostrando {{ maxPaginationCount }} de {{ localJrvs.length }} JRVs
+        encontradas
       </p>
     </div>
     <div class="px-8 md:px-16 py-8">
       <select
+        :value="selectedDepto"
         class="w-full border bg-white rounded px-3 py-3 outline-none mb-4 md:mb-0 md:w-1/4"
         placeholder="Departamento"
         @change="filterByPlace($event, 'depto_id')"
@@ -25,6 +26,7 @@
         </option>
       </select>
       <select
+        :value="selectedMunicipality"
         class="w-full border bg-white rounded px-3 py-3 outline-none md:w-1/4"
         @change="filterByPlace($event, 'muni_id')"
       >
@@ -48,12 +50,13 @@
     </div>
     <div class="flex flex-wrap justify-center items-center">
       <nuxt-link
-        v-for="jrv in JrvsPaginated"
+        v-for="(jrv, index) in JrvsPaginated"
         :key="jrv.jrv"
         :to="`jrvs/${jrv.jrv}`"
         class="flex flex-col items-center border m-4 my-8 p-8 md:mx-8"
       >
         <p class="text-xl font-semibold">#{{ jrv.jrv }}</p>
+        <p class="text-xs text-gray-600">N°{{ index + 1 }}</p>
       </nuxt-link>
     </div>
   </div>
@@ -72,10 +75,11 @@ import {
 export default {
   data() {
     return {
-      maxPaginationCount: 100,
+      pagePaginationCount: 100,
       globalJrvs: jrvs,
       localJrvs: jrvs,
-      selectedDepto: 0,
+      selectedDepto: null,
+      selectedMunicipality: null,
       deptos: geoData,
       municipalities: [],
     }
@@ -83,6 +87,11 @@ export default {
   computed: {
     JrvsPaginated() {
       return this.localJrvs.slice(0, this.maxPaginationCount)
+    },
+    maxPaginationCount() {
+      return this.selectedMunicipality
+        ? this.localJrvs.length
+        : this.pagePaginationCount
     },
   },
   methods: {
@@ -95,10 +104,12 @@ export default {
       switch (type) {
         case 'depto_id':
           this.selectedDepto = id
+          this.selectedMunicipality = null
           this.municipalities = this.getMunicipalitiesByDepto(this.deptos, id)
           this.localJrvs = filterByDepto(this.globalJrvs, id)
           break
         case 'muni_id':
+          this.selectedMunicipality = id
           this.localJrvs = filterByMunicipality(
             this.globalJrvs,
             this.selectedDepto,
@@ -106,6 +117,8 @@ export default {
           )
           break
         default:
+          this.selectedDepto = null
+          this.selectedMunicipality = null
           this.localJrvs = []
           break
       }
