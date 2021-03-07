@@ -13,7 +13,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Visualizador de actas de JRV - Votaciones Feb. 2021',
+    title: 'Visualizador de respaldos - Votaciones Feb. 2021',
     htmlAttrs: {
       lang: 'en',
     },
@@ -24,7 +24,53 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Visualizador del respaldo de actas de las JRV. Votaciones 28 de Febrero del 2021',
+          'Respaldo de actas de las JRV. Votaciones 28 de Febrero del 2021',
+      },
+      // Open Graph / Facebook
+      {
+        hid: 'og:type',
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'Visualizador de respaldos - Votaciones Feb. 2021',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Respaldo de actas de las JRV. Votaciones 28 de Febrero del 2021',
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content:
+          'https://user-images.githubusercontent.com/13499566/110225764-1bc16300-7eae-11eb-8887-053070e8fafc.png',
+      },
+      // Twitter
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Visualizador de respaldos - Votaciones Feb. 2021',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'Respaldo de actas de las JRV. Votaciones 28 de Febrero del 2021',
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content:
+          'https://user-images.githubusercontent.com/13499566/110225764-1bc16300-7eae-11eb-8887-053070e8fafc.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
